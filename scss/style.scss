@@ -160,6 +160,8 @@ h1,h2 {
     grid-gap: 16px;
 }
 .content__block {
+    display: flex;
+    flex-direction: column;
     min-height: 416px;
     border: 1px solid var(--White-10, rgba(255, 255, 255, 0.1));
     padding: 48px;
@@ -169,6 +171,10 @@ h1,h2 {
     letter-spacing: 0%;
     vertical-align: middle;
     color: var(--White-30, rgba(255, 255, 255, 0.3));
+}
+.content__img {
+    margin-top: auto;
+    min-height: 400px;
 }
 h5 {
     font-weight: 600;
