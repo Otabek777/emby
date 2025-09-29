@@ -80,6 +80,7 @@ h1, h2 {
   min-height: 39rem; /* 624px / 16 */
   padding: 6.75rem 8rem; /* 108px / 16 = 6.75rem, 128px / 16 = 8rem */
   border: var(--borderblock);
+  color: var(--silver);
 }
 .content__wrap h1, .content__wrap h2, .content__wrap p {
   max-width: 53rem; /* 848px / 16 */

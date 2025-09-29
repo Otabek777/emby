@@ -1,6 +1,4 @@
---- START OF MODIFIED FILE page2.html ---
 
-```html
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -13,7 +11,7 @@
 
     <title data-i18n="1"></title>
 </head>
-<body data-scroll-container>
+<body class="scroll-container" id="body">
     <header class="embyheader">
         <div class="container">
             <div class="embyheader__box">
@@ -42,66 +40,66 @@
     <main class="main">
         <section class="content">
             <div class="container">
-                <div class="content__top" data-scroll data-scroll-speed="1">
-                    <div class="content__wrap o-title_line" data-scroll>
-                        <h1 data-i18n="1">Backend-архитектура: надежность, масштабируемость, безопасность.</h1>
-                        <p data-i18n="1">Отказоустойчивость, высокая доступность, защищенность данных.</p>
-                    </div>
+                <div class="content__top">
+                    <a href="#" class="content__wrap o-title_line">
+                        <h1 data-i18n="1">Frontend-архитектура: прецизионный код, безупречная производительность.</h1>
+                        <p data-i18n="1">Мгновенный отклик, нулевая задержка, оптимизация.</p>
+                    </a>
                 </div>
-                <div class="content__bottom o-title_line" data-scroll>
-                    <div class="content__block">
+                <div class="content__bottom o-title_line">
+                    <a href="#" class="content__block">
                         <h5 data-i18n="1">Фундаментальные принципы разработки.</h5>
-                        <p data-i18n="1">Применение принципов SOLID, DRY, KISS, YAGNI для создания поддерживаемого и расширяемого кода.</p>
-                    </div>
-                    <div class="content__block">
+                        <p data-i18n="1">Строгое следование принципам SOLID, DRY, YAGNI и KISS.</p>
+                    </a>
+                    <a href="#" class="content__block">
                         <h5 data-i18n="1">Методология разработки и управления проектом.</h5>
-                        <p data-i18n="1">Agile-подход, Scrum, Kanban, итеративная разработка, непрерывная интеграция (CI).</p>
-                    </div>
-                    <div class="content__block">
+                        <p data-i18n="1">Agile-подход, Scrum-фреймворк, ревью кода, конструктивная критика, итеративный процесс.</p>
+                    </a>
+                    <a href="#" class="content__block">
                         <h5 data-i18n="1">Этические принципы разработки.</h5>
                         <p data-i18n="1">Соблюдение лицензионных соглашений, поддержка Open Source-сообщества.</p>
-                    </div>
-                    <div class="content__block">
+                    </a>
+                    <a href="#" class="content__block">
                         <h5 data-i18n="1">Роль и зона ответственности.</h5>
                         <p data-i18n="1">Ведущий Frontend-архитектор, принятие архитектурных решений, координация команды разработчиков.</p>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
         <section class="content">
             <div class="container">
-                <div class="content__top" data-scroll data-scroll-speed="1">
-                    <div class="content__wrap o-title_line" data-scroll>
+                <div class="content__top">
+                    <a href="#" class="content__wrap o-title_line">
                         <h2 data-i18n="1">Компонентная архитектура: масштабируемость, переиспользуемость, тестируемость.</h2>
                         <p data-i18n="1">Каждый элемент дизайн системы имеет все возможные статусы в контексте архитектуры вашего сервиса.</p>
-                    </div>
+                    </a>
                 </div>
-                <div class="content__bottom o-title_line" data-scroll>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Выбор архитектурного подхода.</h5>
-                        <p data-i18n="1">Обоснованный выбор между микросервисной, монолитной или бессерверной архитектурой.</p>
-                    </div>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Микросервисная архитектура.</h5>
-                        <p data-i18n="1">Независимые сервисы, API Gateway, Service Discovery, контейнеризация (Docker, Kubernetes).</p>
-                    </div>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Монолитная архитектура.</h5>
-                        <p data-i18n="1">Единая кодовая база, модульность, масштабирование через репликацию.</p>
-                    </div>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Бессерверные вычисления (Serverless).</h5>
-                        <p data-i18n="1">AWS Lambda, Azure Functions, Google Cloud Functions, оптимизация затрат, масштабируемость.</p>
-                    </div>
+                <div class="content__bottom o-title_line">
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Методология построения компонентов.</h5>
+                        <p data-i18n="1">Атомарный дизайн, создание UI-компонентов, разделение ответственности.</p>
+                    </a>
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Стандарты веб-разработки.</h5>
+                        <p data-i18n="1">Использование Web Components, Shadow DOM, Custom Elements, инкапсуляция стилей и логики.</p>
+                    </a>
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Документирование компонентов.</h5>
+                        <p data-i18n="1">Storybook как инструмент визуализации, тестирования и документирования компонентов.</p>
+                    </a>
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Оптимизация производительности на уровне компонентов.</h5>
+                        <p data-i18n="1">Lazy Loading (ленивая загрузка), Code Splitting (разделение кода), Tree Shaking (удаление неиспользуемого кода).</p>
+                    </a>
                 </div>
             </div>
         </section>
         <section class="content">
             <div class="container">
-                <div class="content__top" data-scroll data-scroll-speed="1">
-                    <div class="content__center o-title_line" data-scroll>
+                <div class="content__top">
+                    <div class="content__center o-title_line">
                         <h2 data-i18n="1">Используем актуальный софт.</h2>
-                        <p data-i18n="1"> Технологический стек: языки, фреймворки, базы данных.</p>
+                        <p data-i18n="1">Обоснованный выбор технологий: React, Vue.js, Svelte (опционально Angular), TypeScript.</p>
                         <div class="content__icons">
                             <div class="icon">
                                 <img src="img/icon.svg" alt="">
@@ -145,142 +143,142 @@
                         </div>
                     </div>
                 </div>
-                <div class="content__bottom o-title_line" data-scroll>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Выбор языков программирования.</h5>
-                        <p data-i18n="1">Обоснованный выбор: Java, Python, Go, Node.js, C#, Ruby (в зависимости от проекта).</p>
-                    </div>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Выбор фреймворков.</h5>
-                        <p data-i18n="1">Spring (Java), Django/Flask (Python), Gin/Echo (Go), Express.js (Node.js), ASP.NET (C#), Ruby on Rails (Ruby).</p>
-                    </div>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Выбор баз данных.</h5>
-                        <p data-i18n="1">Реляционные (PostgreSQL, MySQL, Oracle), NoSQL (MongoDB, Cassandra, Redis), NewSQL (CockroachDB, TiDB).</p>
-                    </div>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Брокеры сообщений.</h5>
-                        <p data-i18n="1">Kafka, RabbitMQ, ActiveMQ, асинхронное взаимодействие между сервисами.</p>
-                    </div>
+                <div class="content__bottom o-title_line">
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Статический анализ кода.</h5>
+                        <p data-i18n="1">ESLint, Stylelint, Prettier, TypeScript для обеспечения качества и единообразия кода.</p>
+                    </a>
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Jest, Mocha, Cypress, Testing Library для обеспечения надежности и стабильности кода.</h5>
+                        <p data-i18n="1"> GitHub Actions, GitLab CI, Jenkins для автоматизации процессов сборки и развертывания.</p>
+                    </a>
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Непрерывная интеграция и развертывание (CI/CD).</h5>
+                        <p data-i18n="1">GitHub Actions, GitLab CI, Jenkins для автоматизации процессов сборки и развертывания.</p>
+                    </a>
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Мониторинг производительности.</h5>
+                        <p data-i18n="1">Lighthouse, WebPageTest, Sentry для отслеживания и оптимизации производительности в реальном времени.</p>
+                    </a>
                 </div>
             </div>
         </section>
         <section class="content">
             <div class="container">
-                <div class="content__top" data-scroll data-scroll-speed="1">
-                    <div class="content__wrap o-title_line" data-scroll>
-                        <h2 data-i18n="1">Безопасность: аутентификация, авторизация, защита данных.</h2>
+                <div class="content__top">
+                    <a href="#" class="content__wrap o-title_line">
+                        <h2 data-i18n="1">Подход к обеспечению кроссбраузерности.</h2>
                         <p data-i18n="1">Progressive Enhancement: базовая функциональность доступна во всех браузерах.</p>
-                    </div>
+                    </a>
                 </div>
-                <div class="content__bottom o-title_line" data-scroll>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Аутентификация и авторизация.</h5>
-                        <p data-i18n="1">OAuth 2.0, OpenID Connect, JWT, управление доступом на основе ролей (RBAC).</p>
-                    </div>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Защита от атак.</h5>
-                        <p data-i18n="1">Предотвращение SQL-инъекций, XSS, CSRF, защита от DDoS-атак.</p>
-                    </div>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Шифрование данных.</h5>
-                        <p data-i18n="1">TLS/SSL, шифрование данных при хранении и передаче, управление ключами шифрования.</p>
-                    </div>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Безопасность API.</h5>
-                        <p data-i18n="1">Валидация входных данных, ограничение доступа, мониторинг и аудит API.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="content">
-            <div class="container">
-                <div class="content__top" data-scroll data-scroll-speed="1">
-                    <div class="content__wrap o-title_line" data-scroll>
-                        <h2 data-i18n="1">Тестирование и DevOps: CI/CD, мониторинг, логирование.</h2>
-                        <p data-i18n="1">JUnit (Java), pytest (Python), testing (Go), Jest (Node.js), NUnit (C#), RSpec (Ruby).</p>
-                    </div>
-                </div>
-                <div class="content__bottom o-title_line" data-scroll>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Интеграционное тестирование (Integration Testing).</h5>
-                        <p data-i18n="1">Тестирование взаимодействия между компонентами системы.</p>
-                    </div>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Непрерывная интеграция и доставка (CI/CD).</h5>
-                        <p data-i18n="1">Jenkins, GitLab CI, CircleCI, Travis CI, автоматизация сборки, тестирования и развертывания.</p>
-                    </div>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Мониторинг и логирование.</h5>
-                        <p data-i18n="1">Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana), централизованный сбор и анализ логов.</p>
-                    </div>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Инфраструктура как код (IaC).</h5>
-                        <p data-i18n="1">Terraform, Ansible, Chef, Puppet, автоматизация управления инфраструктурой.</p>
-                    </div>
+                <div class="content__bottom o-title_line">
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Адаптивность и отзывчивость интерфейса.</h5>
+                        <p data-i18n="1">Адаптивный дизайн, принцип Mobile First, отзывчивость интерфейса на действия пользователя.</p>
+                    </a>
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Автоматизированное тестирование доступности.</h5>
+                        <p data-i18n="1">Использование инструментов axe и Pa11y для автоматического выявления проблем доступности.</p>
+                    </a>
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Стандарты доступности веб-контента.</h5>
+                        <p data-i18n="1">Соответствие WCAG 2.1 (уровень AA), семантическая верстка, использование ARIA-атрибутов.</p>
+                    </a>
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Кроссбраузерное тестирование. Оптимизация производительности.</h5>
+                        <p data-i18n="1">BrowserStack, LambdaTest</p>
+                    </a>
                 </div>
             </div>
         </section>
         <section class="content">
             <div class="container">
-                <div class="content__top" data-scroll data-scroll-speed="1">
-                    <div class="content__wrap o-title_line" data-scroll>
-                        <h2 data-i18n="1">Опыт разработки высоконагруженных систем.</h2>
-                        <p data-i18n="1">Проектирование и разработка систем, способных обрабатывать большие объемы данных и запросов.</p>
-                    </div>
+                <div class="content__top">
+                    <a href="#" class="content__wrap o-title_line">
+                        <h2 data-i18n="1">Оптимизация производительности.</h2>
+                        <p data-i18n="1">Оптимизация критического пути рендеринга, минимизация времени до первого отображения контента.</p>
+                    </a>
                 </div>
-                <div class="content__bottom o-title_line" data-scroll>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Опыт работы с облачными платформами.</h5>
-                        <p data-i18n="1"> AWS, Azure, Google Cloud Platform, развертывание и управление приложениями в облаке.</p>
-                    </div>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Опыт проектирования API.</h5>
-                        <p data-i18n="1">RESTful API, GraphQL, gRPC, разработка удобных и эффективных интерфейсов взаимодействия.</p>
-                    </div>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Опыт работы с различными базами данных.</h5>
-                        <p data-i18n="1">Проектирование схем данных, оптимизация запросов, обеспечение целостности данных.</p>
-                    </div>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Решение нестандартных задач.</h5>
-                        <p data-i18n="1">Способность находить эффективные решения для сложных и нетипичных проблем.</p>
-                    </div>
+                <div class="content__bottom o-title_line">
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Опыт разработки.</h5>
+                        <p data-i18n="1">Опыт разработки высоконагруженных систем, работа с большими объемами данных.</p>
+                    </a>
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Архитектурные решения.</h5>
+                        <p data-i18n="1">Применение архитектуры микрофронтендов, разработка независимых Frontend-модулей.</p>
+                    </a>
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Оптимизация загрузки и рендеринга.</h5>
+                        <p data-i18n="1">Использование Server-Side Rendering (SSR) и Static Site Generation (SSG).</p>
+                    </a>
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Аналитика и принятие решений.</h5>
+                        <p data-i18n="1">Data-Driven Development, A/B-тестирование, анализ поведения пользователей.</p>
+                    </a>
                 </div>
             </div>
         </section>
         <section class="content">
             <div class="container">
-                <div class="content__top" data-scroll data-scroll-speed="1">
-                    <div class="content__center o-title_line" data-scroll>
+                <div class="content__top">
+                    <a href="#" class="content__wrap o-title_line">
+                        <h2 data-i18n="1">Проектирование архитектуры.</h2>
+                        <p data-i18n="1">Проектирование Frontend-архитектуры, обеспечение масштабируемости и поддерживаемости.</p>
+                    </a>
+                </div>
+                <div class="content__bottom o-title_line">
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Проектирование архитектуры.</h5>
+                        <p data-i18n="1">Проектирование Frontend-архитектуры, обеспечение масштабируемости и поддерживаемости.</p>
+                    </a>
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Взаимодействие с Backend-разработкой.</h5>
+                        <p data-i18n="1">Взаимодействие с Backend-командой, согласование API, использование GraphQL, разработка контрактов.</p>
+                    </a>
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Стандарты кодирования.</h5>
+                        <p data-i18n="1">Разработка и внедрение стандартов кодирования, Code Style Guide, соглашения по оформлению кода.</p>
+                    </a>
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Документирование проекта.</h5>
+                        <p data-i18n="1">Создание и поддержка документации в Confluence, описание архитектуры, компонентов, API.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="content">
+            <div class="container">
+                <div class="content__top">
+                    <div class="content__center o-title_line">
                         <h2 data-i18n="1">Методология управления проектом.</h2>
                         <p data-i18n="1">Применение Agile-методологии, Scrum-фреймворка, Kanban-досок, итеративная разработка.</p>
                     </div>
                 </div>
-                <div class="content__bottom o-title_line" data-scroll>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Коммуникация и взаимодействие.</h5>
-                        <p data-i18n="1">Эффективное взаимодействие с Frontend-командой, дизайнерами, аналитиками и заказчиками.</p>
-                    </div>
-                    <div class="content__block">
+                <div class="content__bottom o-title_line">
+                    <a href="#" class="content__block">
                         <h5 data-i18n="1">Прозрачность процессов.</h5>
-                        <p data-i18n="1">Регулярная отчетность, использование Jira, Confluence, отслеживание прогресса.</p>
-                    </div>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Ориентация на результат.</h5>
-                        <p data-i18n="1">Достижение поставленных бизнес-целей, обеспечение надежности, масштабируемости и безопасности системы.</p>
-                    </div>
-                    <div class="content__block">
-                        <h5 data-i18n="1">Долгосрочное сотрудничество.</h5>
-                        <p data-i18n="1">Поддержка и развитие проекта, масштабирование, внесение изменений, выпуск обновлений.</p>
-                    </div>
+                        <p data-i18n="1">Обеспечение прозрачности, регулярная отчетность, использование Jira для управления задачами.</p>
+                    </a>
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Ориентация на достижение результата.</h5>
+                        <p data-i18n="1">Ориентация на достижение ключевых показателей эффективности (KPI), оптимизация производительности.</p>
+                    </a>
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Согласование и приемка работ.</h5>
+                        <p data-i18n="1">Полное согласование результатов, проведение приемочного тестирования.</p>
+                    </a>
+                    <a href="#" class="content__block">
+                        <h5 data-i18n="1">Долгосрочная поддержка.</h5>
+                        <p data-i18n="1">Поддержка проекта, развитие функциональности, масштабирование, выпуск обновлений.</p>
+                    </a>
                 </div>
             </div>
         </section>
         <section class="questions">
             <div class="container">
-                <div class="questions__box" data-scroll data-scroll-speed="1">
-                    <div class="questions__text o-title_line" data-scroll>
+                <div class="questions__box">
+                    <div class="questions__text o-title_line">
                         <h2 data-i18n="1">Есть вопросы?</h2>
                         <p data-i18n="1">У нас есть ответы.</p>
                     </div>
@@ -499,28 +497,7 @@
         </div>
     </footer>
     <script src="js/jquery.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.1/dist/locomotive-scroll.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
-    <script>
-    const locoScroll = new LocomotiveScroll({
-      el: document.querySelector(".locomotive-scroll"),
-      smooth: true,
-      multiplier: 1.0,
-    }); 
-    
-    // Wait 2 seconds then calculate the new page height
-    setTimeout(() => {  
-        locoScroll.update();
-    }, 2000);
-    </script>
-    <script>
-        const scroll = new LocomotiveScroll({
-          el: document.querySelector('[data-scroll-container]'),
-          smooth: true
-        });
-    </script>
 </body>
 </html>
-```
---- END OF MODIFIED FILE page2.html ---
