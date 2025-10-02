@@ -46,6 +46,7 @@ h1, h2 {
   padding: 6.75rem 8rem; /* 108px / 16 = 6.75rem, 128px / 16 = 8rem */
   border: var(--borderblock);
   text-align: center;
+  color: var(--silver);
 }
 .content__center h1, .content__center h2 {
   margin-bottom: var(--xs); /* 8px / 16 */
